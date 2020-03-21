@@ -2,6 +2,16 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/view/viewAdmin/ViewMenuAdmin.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/view/viewAdmin/ViewManageAdmin.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/controller/CGantiPIN.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/view/viewNasabah/ViewGantiPin.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/view/viewAdmin/ViewRegisNasabah.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/controller/CManageAdmin.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/model/DAO/TransaksiPpobDAO.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/controller/CTransaksiBank.java</file>
+            <file>file:/C:/Users/User/Desktop/nusafix/NusaBank/src/com/nusabank/view/viewNasabah/ViewTrxBank.java</file>
+        </group>
     </open-files>
 </project-private>

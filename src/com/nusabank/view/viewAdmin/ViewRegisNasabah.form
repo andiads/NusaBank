@@ -79,21 +79,19 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="cmbStatus" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel6" min="-2" pref="103" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel3" min="-2" pref="103" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="dcTglLahir" min="-2" pref="141" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel19" min="-2" pref="103" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jScrollPane2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel6" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel3" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="dcTglLahir" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -527,11 +525,6 @@
         <Property name="text" type="java.lang.String" value="Type of Account"/>
       </Properties>
     </Component>
-    <Component class="com.toedter.calendar.JDateChooser" name="dcTglLahir">
-      <Properties>
-        <Property name="dateFormatString" type="java.lang.String" value="dd-mm-yyyy"/>
-      </Properties>
-    </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane2">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -688,6 +681,8 @@
         <Property name="text" type="java.lang.String" value="123456"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="dcTglLahir">
     </Component>
   </SubComponents>
 </Form>
