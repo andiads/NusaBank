@@ -34,7 +34,7 @@ import javax.swing.UIManager;
  */
 public class ViewRegisNasabah extends javax.swing.JFrame {
     private static final long serialVersionUID = 1L;
-    private String IdAdmin = ViewMenuAdmin.lbIdAdmin.getText();
+    private String IdAdmin;
     private Function func;
     private CRegisNasabah nc;
     private CRegisRekening rc;
@@ -52,6 +52,7 @@ public class ViewRegisNasabah extends javax.swing.JFrame {
         todayDateInit();
         noIdAdmin();
         setLocationRelativeTo(null);
+        setIdAdmin(ViewMenuAdmin.lbIdAdmin.getText());
         dcTglLahir.setDate(new Date());
         func = new Function();
         nc = new CRegisNasabah(this);
@@ -62,6 +63,10 @@ public class ViewRegisNasabah extends javax.swing.JFrame {
     }
     public void noIdAdmin(){
         lbIdAdmin.setText(IdAdmin);
+    }
+    
+    public void setIdAdmin(String id){
+        this.IdAdmin=id;
     }
 
     public void todayDateInit() {

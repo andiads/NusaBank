@@ -39,7 +39,8 @@ public class CLoginNasabah {
         this.vLoginNasabah = vLoginNasabah;
     }
 
-    public void doLogin(String username, String password) throws IOException {
+    public boolean doLogin(String username, String password) throws IOException {
+        boolean results = false;
         try {
             String sql = "SELECT*FROM nasabah where username_nasabah=? AND password_nasabah=?";
             PreparedStatement statement = DBConnection.getConnection().prepareStatement(sql);
@@ -85,16 +86,21 @@ public class CLoginNasabah {
                     BufferedImage iconLogo = ImageIO.read(getClass().getResource("../res/logo/nb.jpeg"));
                     vMenuNasabah.getLogoPT().setIcon(new ImageIcon(iconLogo.getScaledInstance(240, 100, Image.SCALE_SMOOTH)));
                     vMenuNasabah.setVisible(true);
+                    
+                    results = true;
                 } catch (IOException ioe) {
                     System.err.println(ioe);
                 }
-
+                
             } else {
                 JOptionPane.showMessageDialog(null, "Login Gagal!" + username + " " + password);
+                results = false;
             }
         } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, "Error: " + ex);
         }
+        
+        return results;
     }
 
 }

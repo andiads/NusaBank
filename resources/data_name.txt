@@ -1,0 +1,7 @@
+ABC@99b2,true
+password,false
+pw,false
+a2,false
+Big@Pass99,true
+@MyPassword1,true
+@MyPw,false
